@@ -7,8 +7,15 @@
 body {
   padding-top: 54px;
 }
+a.fa {
+  color: RGB(72, 223, 255);
+}
+.navbar-dark .navbar-brand {
+  color: RGB(251, 198, 0);
+}
 h1 {
   font-family: "Archivo Black", sans-serif;
+  color: RGB(251, 198, 0);
 }
 
 @media (min-width: 992px) {
