@@ -1,0 +1,75 @@
+/*!
+ * Start Bootstrap - Full Width Pics (https://startbootstrap.com/template-overviews/full-width-pics)
+ * Copyright 2013-2017 Start Bootstrap
+ * Licensed under MIT (https://github.com/BlackrockDigital/startbootstrap-full-width-pics/blob/master/LICENSE)
+ */
+
+body {
+  padding-top: 54px;
+}
+h1 {
+  font-family: "Archivo Black", sans-serif;
+}
+
+@media (min-width: 992px) {
+  body {
+    padding-top: 56px;
+  }
+}
+.lead {
+  font-family: "Roboto Slab", serif;
+}
+/* font awesome icons */
+.fa {
+  padding: 20px;
+  font-size: 30px;
+  width: 30px;
+  text-align: center;
+  text-decoration: none;
+  border-radius: 50%;
+}
+.fa:hover {
+  opacity: 0.7;
+}
+
+.colorful {
+  background: -webkit-linear-gradient(
+      45deg,
+      hsla(168, 4%, 79%, 1) 0%,
+      hsla(168, 4%, 79%, 0) 70%
+    ),
+    -webkit-linear-gradient(315deg, hsla(164, 0%, 53%, 1) 10%, hsla(164, 0%, 53%, 0)
+          80%),
+    -webkit-linear-gradient(225deg, hsla(165, 5%, 16%, 1) 10%, hsla(165, 5%, 16%, 0)
+          80%),
+    -webkit-linear-gradient(135deg, hsla(87, 18%, 1%, 1) 100%, hsla(87, 18%, 1%, 0)
+          70%);
+  background: linear-gradient(
+      45deg,
+      hsla(168, 4%, 79%, 1) 0%,
+      hsla(168, 4%, 79%, 0) 70%
+    ),
+    linear-gradient(
+      135deg,
+      hsla(164, 0%, 53%, 1) 10%,
+      hsla(164, 0%, 53%, 0) 80%
+    ),
+    linear-gradient(
+      225deg,
+      hsla(165, 5%, 16%, 1) 10%,
+      hsla(165, 5%, 16%, 0) 80%
+    ),
+    linear-gradient(
+      315deg,
+      hsla(87, 18%, 1%, 1) 100%,
+      hsla(87, 18%, 1%, 0) 70%
+    );
+}
+
+.bg-image-full {
+  background: no-repeat center center scroll;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  background-size: cover;
+  -o-background-size: cover;
+}
