@@ -2,13 +2,13 @@
 <html lang="en">
 
   <head>
-
+    {% block head %}
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <meta name="description" content="">
     <meta name="author" content="">
 
-    <title>{{title}}</title>
+    <title>{% block title %}{% endblock %}</title>
 
     <!-- Bootstrap core CSS -->
     <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
@@ -23,6 +23,7 @@
         font-weight: bold;
       }
     </style>
+  {% endblock %}
   </head>
 
   <body>
