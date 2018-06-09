@@ -31,9 +31,7 @@ def create_file(file_name, title, css_id):
     write_to_docs(file_name, finished_page)
 
 def construct_page(layout, middle_content, title, css_id):
-    constructed_page = layout.replace('{{content}}', middle_content)
-                             .replace('{{title}}', title)
-                             .replace('{{id}}', css_id)
+    constructed_page = layout.replace('{{content}}', middle_content).replace('{{title}}', title).replace('{{id}}', css_id)
     return constructed_page
 
 def write_to_docs(file_name, finished_page):
